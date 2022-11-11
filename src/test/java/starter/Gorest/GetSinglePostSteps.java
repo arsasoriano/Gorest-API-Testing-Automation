@@ -1,4 +1,4 @@
-package starter.Gorest.StepDefs;
+package starter.Gorest;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
