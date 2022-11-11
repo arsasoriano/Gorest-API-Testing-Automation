@@ -28,8 +28,13 @@ public class GorestAPI {
     public static final String DELETE_COMMENTS = URL+"/public/v2/comments/{id}";
     public static final String POST_CREATE_TODOS = URL+"/public/v2/todos";
     public static final String GET_LIST_TODOS = URL+"/public/v2/todos?page={page}";
-    public static final String GET_SINGLE_TODOS = URL+"/public/v2/todos/{id}";
+    public static final String GET_LIST_TODOS_PARAM_ID = URL+"/public/v2/todos?id={id}";
+    public static final String GET_LIST_TODOS_PARAM_ID_KAPITAL = URL+"/public/v2/todos?ID={ID}";
+    public static final String GET_LIST_TODOS_PARAM_ID_KEY_GO = URL+"/public/v2/todos?ID={ID}&key&go";
+    public static final String GET_LIST_TODOS_PARAM_ID_KEY_GO_KAPITAL = URL+"/public/v2/todos?ID={ID}&KEY&GO";
+    public static final String GET_LIST_TODOS_INVALID = URL+"/public/v2/todosDA";
     public static final String PUT_UPDATE_TODOS = URL+"/public/v2/todos/{id}";
+    public static final String PATCH_TODOS = URL+"/public/v2/comments/{id}";
     public static final String DELETE_TODOS = URL+"/public/v2/comments/{id}";
 
     @Step("Get list users")
@@ -39,7 +44,17 @@ public class GorestAPI {
     @Step("Get list comments")
     public void getListComments (int page){SerenityRest.given().pathParam("page",page);}
     @Step("Get list todos")
-    public void getListTodos (int page){SerenityRest.given().pathParam("page",page);}
+    public void getListTodos (File page){SerenityRest.given().pathParam("page",page);}
+    @Step("Get list todos param")
+    public void getListTodosParam (int id, File json)
+    {SerenityRest.given().pathParam("id",id);
+    }
+    @Step("Get list todos param kapital")
+    public void getListTodosParamKapital (int ID, File json)
+    {SerenityRest.given().pathParam("ID",ID);
+    }
+    @Step("Get list todos")
+    public void setGetListTodosInvalid (File id){SerenityRest.given().pathParam("id",id);}
     @Step("Get single users")
     public void getSingleUsers (int id){SerenityRest.given().pathParam("id",id);}
     @Step("Get single posts")

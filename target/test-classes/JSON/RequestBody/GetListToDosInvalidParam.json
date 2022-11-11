@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<title>Page Not Found | GO REST</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token"
+content="tcDZ0zjb7fSeEsuTgQUno_oO7TK8maZ3IE2EWxr9QtQaxjfCbVcO33HXZ0QeXjtdtX_ynW2rFjV2GUuVgQOKnQ" />
+<link rel="stylesheet"
+href="/assets/application-b212522fc0700166db332c0be0e0e8da03bb17e1017883c28d6bac5e5abe72f8.css" media="all"
+data-turbolinks-track="reload" />
+<script src="/packs/js/application-3d361c652948a6caa881.js" data-turbolinks-track="reload" defer="defer"></script>
+<script async="true" crossorigin="anonymous"
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script>
+<script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');
+</script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go
+REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="AppNavBar">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link"
+href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li>
+<li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li>
+<li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest
+Console</a></li>
+<li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle"
+data-bs-toggle="dropdown" href="#" id="ToolsDropDown"
+role="button"><i class="fas fa-tools"></i> Tools</a>
+<ul aria-labelledby="ToolsDropDown" class="dropdown-menu">
+<li class=""><a class="dropdown-item" href="/tools/base64-encode-decode">Base64
+Encode/Decode</a></li>
+<li class=""><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+</li>
+<li class=""><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+</li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container pt-3">
+<style type="text/css">
+.code-text code {
+color: #bdbdbd;
+display: block;
+}
+
+.code-text code b {
+color: #81a2be;
+font-weight: 900;
+}
+
+.code-text code em {
+color: #b294bb;
+font-style: unset;
+}
+
+.code-text code i {
+color: #b5bd68;
+}
+
+.code-text code span {
+color: #f0c674;
+}
+</style>
+<div class="card text-white border-secondary bg-dark">
+<div class="card-header">
+<h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found
+</h1>
+</div>
+<div class="card-body">
+<h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code>
+</h3>
+<p class="lead code-text">
+<code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br />&nbsp;&nbsp;<span>try_again</span><br /></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br />&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br /></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code>
+</p>
+</div>
+</div>
+</div>
+<hr class="mt-5" />
+<div class="container">
+<div class="footer">
+<ul class="list-inline">
+<li class="list-inline-item">&copy; Go Rest 2022</li>
+<li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</body>
+
+</html>

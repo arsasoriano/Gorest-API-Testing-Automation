@@ -1,0 +1,18 @@
+[
+  {
+    "field": "user",
+    "message": "must exist"
+  },
+  {
+    "field": "title",
+    "message": "can't be blank"
+  },
+  {
+    "field": "user_id",
+    "message": "is not a number"
+  },
+  {
+    "field": "status",
+    "message": "can't be blank, can be pending or completed"
+  }
+]
