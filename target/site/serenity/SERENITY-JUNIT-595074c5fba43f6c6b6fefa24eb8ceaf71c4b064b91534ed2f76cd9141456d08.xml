@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Post Create New User" skipped="0" tests="5" time="2.18" timestamp="2022-11-12 11:44:46"><testcase name="Post create user using valid body json"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;422&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+starter.Gorest.PostCreateNewUserSteps.responseBodyCodeShouldBeCreated(PostCreateNewUserSteps.java:35)&#13;
+✽.Response body code should be 201 created(classpath:features/Gorest/PostCreateNewUser.feature:7)&#13;
+</system-err></testcase><testcase name="Post create user with empty name"/><testcase name="Post create user with empty email"/><testcase name="Post create user with empty gender"/><testcase name="Post create user with empty status"/></testsuite>

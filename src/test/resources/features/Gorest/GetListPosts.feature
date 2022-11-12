@@ -3,7 +3,6 @@ Feature: Get Post Lists
   @gorest
   Scenario Outline: Get list posts with valid page parameter
     Given Get list posts with valid parameter page <page>
-    #And Set authentication token
     When Send get list posts request
     Then Should return 200 OK
     And Validate get list posts json schema

@@ -1,0 +1,12 @@
+starter\Gorest\PostCreateNewUserSteps.class
+starter\Gorest\UpdatePostsStepDef.class
+starter\Gorest\CreateNewCommentsStepDef.class
+starter\Gorest\GorestResponses.class
+starter\Gorest\GorestAPI.class
+starter\Gorest\DeletePostStepDef.class
+starter\Gorest\GetListPostsSteps.class
+starter\Gorest\GetSinglePostSteps.class
+starter\Gorest\DeleteTodoSteps.class
+starter\Gorest\CreatePostsStepDef.class
+starter\CucumberTestSuite.class
+starter\Gorest\PutUpdateCommentSteps.class

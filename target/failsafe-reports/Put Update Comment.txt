@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Put Update Comment
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.894 s <<< FAILURE! - in Put Update Comment
+Put Update Comment.Put update comment with valid id without authentication  Time elapsed: 0.354 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+
+Put Update Comment.Put update comment with empty body comment on body json and authenticated  Time elapsed: 0.132 s  <<< ERROR!
+java.lang.RuntimeException: Some exception during recording fields
+Caused by: java.io.FileNotFoundException: E:\LEARN\QA Engineer\Alterra\Group Project\Gorest-API-Testing-Automation\src\test\resources\JSON\RequestBody\PUTUppdateCommentEmptyBody.json (The system cannot find the file specified)
+

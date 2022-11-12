@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: Update Posts Feature
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 5.776 s <<< FAILURE! - in Update Posts Feature
+Update Posts Feature.Put update posts with valid body json and valid id #1  Time elapsed: 0.283 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+
+Update Posts Feature.Put update posts with valid body json and valid id #2  Time elapsed: 0.836 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+
+Update Posts Feature.Put update posts without authentication #1  Time elapsed: 0.433 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+
+Update Posts Feature.Put update posts without authentication #2  Time elapsed: 0.26 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid title #1  Time elapsed: 0.286 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid title #2  Time elapsed: 0.415 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid body #1  Time elapsed: 0.345 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid body #2  Time elapsed: 0.317 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid body json #1  Time elapsed: 0.388 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+
+Update Posts Feature.Put update posts with invalid body json #2  Time elapsed: 0.439 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <404>.
+
+

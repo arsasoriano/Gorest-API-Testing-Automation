@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Post Lists","Get list posts with valid page parameter","SUCCESS","2022-11-12T11:44:41.314+07:00[Asia/Bangkok]","0.0","1.89"
+"Get Post Lists","Get list posts with invalid parameter page with character & special character","FAILURE","2022-11-12T11:44:43.219+07:00[Asia/Bangkok]","0.0","0.74"

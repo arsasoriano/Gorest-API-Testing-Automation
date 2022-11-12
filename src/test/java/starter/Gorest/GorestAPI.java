@@ -115,5 +115,8 @@ public class GorestAPI {
                 .contentType(ContentType.JSON)
                 .body(json);}
 
-
+    @Step("Delete Post with Invalid Id")
+    public void deletePostsWithInvalidId(String id) {
+        SerenityRest.given().pathParam("id",id);
+    }
 }

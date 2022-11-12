@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Update Posts Feature","Put update posts with valid body json and valid id","FAILURE","2022-11-12T11:44:54.472+07:00[Asia/Bangkok]","0.0","1.14"
+"Update Posts Feature","Put update posts with valid body json and invalid id","SUCCESS","2022-11-12T11:44:56.233+07:00[Asia/Bangkok]","0.0","1.01"
+"Update Posts Feature","Put update posts without authentication","FAILURE","2022-11-12T11:44:57.265+07:00[Asia/Bangkok]","0.0","0.69"
+"Update Posts Feature","Put update posts with invalid title","FAILURE","2022-11-12T11:44:57.971+07:00[Asia/Bangkok]","0.0","0.72"
+"Update Posts Feature","Put update posts with invalid body","FAILURE","2022-11-12T11:44:58.704+07:00[Asia/Bangkok]","0.0","0.69"
+"Update Posts Feature","Put update posts with invalid body json","FAILURE","2022-11-12T11:44:59.406+07:00[Asia/Bangkok]","0.0","0.86"
