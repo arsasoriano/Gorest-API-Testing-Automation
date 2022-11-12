@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete todos","Delete todo with valid id","SUCCESS","2022-11-12T11:44:39.976+07:00[Asia/Bangkok]","0.0","0.43"
+"Delete todos","Delete todo with invalid id","SUCCESS","2022-11-12T11:44:40.428+07:00[Asia/Bangkok]","0.0","0.42"
+"Delete todos","Delete todo with valid id without token","SUCCESS","2022-11-12T11:44:40.866+07:00[Asia/Bangkok]","0.0","0.33"

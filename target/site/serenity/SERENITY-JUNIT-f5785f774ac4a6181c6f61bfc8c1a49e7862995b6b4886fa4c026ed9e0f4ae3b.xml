@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Get single post" skipped="0" tests="2" time="2.8" timestamp="2022-11-12 11:44:43"><testcase name="Get single post with valid id"><failure message="1 expectation failed.&#10;JSON path user_id doesn't match.&#10;Expected: &lt;3780&gt;&#10;  Actual: &lt;3649&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path user_id doesn't match.
+Expected: &lt;3780&gt;
+  Actual: &lt;3649&gt;
+</failure><system-err>1 expectation failed.
+JSON path user_id doesn't match.
+Expected: &lt;3780&gt;
+  Actual: &lt;3649&gt;
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+starter.Gorest.GetSinglePostSteps.responseBodyShouldContainIdWithUserIdAndTitle(GetSinglePostSteps.java:32)&#13;
+✽.Response body should contain id 1792 with user id 3780 and title "Vergo arbustum temporibus cito cum cresco supellex pauci desidero ullus adflicto sequi."(classpath:features/Gorest/GetSinglePost.feature:8)&#13;
+</system-err></testcase><testcase name="Get single post with invalid id by alphabet"/></testsuite>

@@ -7,6 +7,7 @@ import net.thucydides.core.annotations.Step;
 import java.io.File;
 
 public class GorestAPI {
+    public static String USER_ID;
     public static final String URL = "https://gorest.co.in";
     public static final String DIR = System.getProperty("user.dir");
     public static final String JSON_REQ_BODY = DIR+"/src/test/resources/JSON/RequestBody";
@@ -30,7 +31,7 @@ public class GorestAPI {
     public static final String GET_LIST_TODOS = URL+"/public/v2/todos?page={page}";
     public static final String GET_SINGLE_TODOS = URL+"/public/v2/todos/{id}";
     public static final String PUT_UPDATE_TODOS = URL+"/public/v2/todos/{id}";
-    public static final String DELETE_TODOS = URL+"/public/v2/comments/{id}";
+    public static final String DELETE_TODOS = URL+"/public/v2/todos/{id}";
 
     @Step("Get list users")
     public void getListUsers (int page){SerenityRest.given().pathParam("page",page);}
@@ -90,11 +91,32 @@ public class GorestAPI {
     public void deleteUsers(int id){SerenityRest.given().pathParam("id",id);}
     @Step("Delete posts")
     public void deletePosts(int id){SerenityRest.given().pathParam("id",id);}
-    @Step("Delete posts with invalid id")
-    public void deletePostsWithInvalidId(String id){SerenityRest.given().pathParam("id",id);}
+    @Step("Delete posts with invalid id Int")
+    public void deletePostsWithInvalidIdInt(int id){SerenityRest.given().pathParam("id",id);}
     @Step("Delete comments")
     public void deleteComments(int id){SerenityRest.given().pathParam("id",id);}
     @Step("Delete todos")
     public void deleteTodos(int id){SerenityRest.given().pathParam("id",id);}
 
+    @Step("Get list posts invalid page with character & special character")
+    public void getListPostsInvalidPage(String page){
+        SerenityRest.given().pathParam("page",page);
+    }
+
+    @Step("Get single post with invalid id by alphabet")
+    public void getSinglePostInvalidPage(String id){
+        SerenityRest.given().pathParam("id", id);
+    }
+
+    @Step("Put update comments invalid id")
+    public void putUpdateCommentInvalidId(int id,File json){
+        SerenityRest.given()
+                .pathParam("id",id)
+                .contentType(ContentType.JSON)
+                .body(json);}
+
+    @Step("Delete Post with Invalid Id")
+    public void deletePostsWithInvalidId(String id) {
+        SerenityRest.given().pathParam("id",id);
+    }
 }

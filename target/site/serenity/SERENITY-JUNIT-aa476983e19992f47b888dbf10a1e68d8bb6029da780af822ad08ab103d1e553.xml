@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Delete todos" skipped="0" tests="3" time="1.18" timestamp="2022-11-12 11:44:39"><testcase name="Delete todo with valid id"/><testcase name="Delete todo with invalid id"/><testcase name="Delete todo with valid id without token"/></testsuite>

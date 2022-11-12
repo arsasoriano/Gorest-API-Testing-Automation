@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete Posts Feature","Delete posts with invalid id","SUCCESS","2022-11-12T11:44:38.447+07:00[Asia/Bangkok]","0.0","1.25"
+"Delete Posts Feature","Delete posts without authentication","SUCCESS","2022-11-12T11:44:39.707+07:00[Asia/Bangkok]","0.0","0.25"
