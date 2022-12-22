@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Put Update Comment","Put update comment with valid id","SUCCESS","2022-11-12T11:44:51.59+07:00[Asia/Bangkok]","0.0","0.4"
-"Put Update Comment","Put update comment with invalid id and authenticated","SUCCESS","2022-11-12T11:44:52.004+07:00[Asia/Bangkok]","0.0","0.38"
-"Put Update Comment","Put update comment with empty email input on body json and authenticated","SUCCESS","2022-11-12T11:44:52.787+07:00[Asia/Bangkok]","0.0","0.42"
-"Put Update Comment","Put update comment with empty name input on body json and authenticated","SUCCESS","2022-11-12T11:44:53.225+07:00[Asia/Bangkok]","0.0","0.3"
-"Put Update Comment","Put update comment with empty input in body json on name and email and authenticated","SUCCESS","2022-11-12T11:44:53.736+07:00[Asia/Bangkok]","0.0","0.39"
-"Put Update Comment","Put update commment with empty input in body json on name email and body comment and authenticated","SUCCESS","2022-11-12T11:44:54.146+07:00[Asia/Bangkok]","0.0","0.32"

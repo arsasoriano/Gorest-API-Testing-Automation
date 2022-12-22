@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Create posts feature","Create posts without authentication","SUCCESS","2022-11-12T11:44:49.522+07:00[Asia/Bangkok]","0.0","0.38"
-"Create posts feature","Create posts with invalid user_id","SUCCESS","2022-11-12T11:44:49.918+07:00[Asia/Bangkok]","0.0","0.39"
-"Create posts feature","Create posts with invalid title","SUCCESS","2022-11-12T11:44:50.325+07:00[Asia/Bangkok]","0.0","0.37"
-"Create posts feature","Create posts with invalid body","SUCCESS","2022-11-12T11:44:50.702+07:00[Asia/Bangkok]","0.0","0.42"
-"Create posts feature","Create posts with invalid body json","SUCCESS","2022-11-12T11:44:51.143+07:00[Asia/Bangkok]","0.0","0.43"

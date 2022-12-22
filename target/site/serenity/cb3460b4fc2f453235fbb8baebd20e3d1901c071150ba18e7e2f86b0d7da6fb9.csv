@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Post Create New User","Post create user using valid body json","FAILURE","2022-11-12T11:44:46.837+07:00[Asia/Bangkok]","0.0","0.63"
-"Post Create New User","Post create user with empty name","SUCCESS","2022-11-12T11:44:47.49+07:00[Asia/Bangkok]","0.0","0.39"
-"Post Create New User","Post create user with empty email","SUCCESS","2022-11-12T11:44:47.889+07:00[Asia/Bangkok]","0.0","0.29"
-"Post Create New User","Post create user with empty gender","SUCCESS","2022-11-12T11:44:48.189+07:00[Asia/Bangkok]","0.0","0.45"
-"Post Create New User","Post create user with empty status","SUCCESS","2022-11-12T11:44:48.647+07:00[Asia/Bangkok]","0.0","0.43"

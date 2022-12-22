@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Put Update Comment","Put update comment with valid id without authentication","FAILURE","2022-11-12T11:44:52.394+07:00[Asia/Bangkok]","0.0","0.36"
-"Put Update Comment","Put update comment with empty body comment on body json and authenticated","ERROR","2022-11-12T11:44:53.543+07:00[Asia/Bangkok]","0.0","0.14"
